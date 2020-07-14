@@ -126,8 +126,6 @@ The property: ""DeviceServiceSettings.Devices"" collection is Empty. The collect
             }
         }
 
-        [DataTestMethod]
-        [DataRow()]
         [TestMethod]
         public void GetDeviceServiceSettings_WhenBaseUrlIsNull_ShouldThrow()
         {
